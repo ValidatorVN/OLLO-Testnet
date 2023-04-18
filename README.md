@@ -50,6 +50,10 @@ Thêm thông tin node, tên node:
     ollod config keyring-backend test
     ollod config chain-id ollo-testnet-1
     ollod init NodeVietNam --chain-id ollo-testnet-1
+    
+    wget https://raw.githubusercontent.com/OLLO-Station/networks/master/ollo-testnet-1/genesis.json
+    mv genesis.json ~/.ollo/config/genesis.json
+
     SEEDS=""
     PEERS=""
     sed -i 's|^seeds *=.*|seeds = "'$SEEDS'"|; s|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.ollo/config/config.toml
