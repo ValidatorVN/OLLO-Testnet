@@ -53,6 +53,9 @@ Thêm thông tin node, tên node:
     
     wget https://raw.githubusercontent.com/OLLO-Station/networks/master/ollo-testnet-1/genesis.json
     mv genesis.json ~/.ollo/config/genesis.json
+    
+    wget https://raw.githubusercontent.com/OLLO-Station/networks/master/ollo-testnet-1/addrbook.json
+    mv addrbook.json ~/.ollo/config/addrbook.json
 
     SEEDS=""
     PEERS=""
